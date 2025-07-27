@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Twitch Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box"></div>
+        <div id="notification" class="notification" style="display:none;"></div>
+        <div class="controls">
+            <textarea id="usernames-input" placeholder="Paste usernames (one per line)" rows="5"></textarea>
+            <textarea id="messages-input" placeholder="Paste messages (one per line)" rows="5"></textarea>
+            <input type="file" id="file-input" accept=".txt" onchange="importMessagesFromFile(event)">
+            <button onclick="bulkImport()">Bulk Import</button>
+            <button onclick="startChat()">Start Chat</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
