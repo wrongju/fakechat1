@@ -8,7 +8,7 @@ const config = {
     messagesInputSelector: '#messages-input', // Messages input selector
     messageClass: 'message', // CSS class for chat messages
     notificationSelector: '#notification', // Notification box selector
-    randomColors: ['#FF5733', '#3375FF', '#FF33B8', '#FFD433', '#33FFF2', '#A533FF'], // Array of random colors for usernames
+    randomColors: ['#FF5733', '#3cbf30', '#3375FF', '#FF33B8', '#FFD433', '#33FFF2', '#A533FF'], // Array of random colors for usernames
     messageStyle: 'color: white;', // Style for chat messages
     allowedStickers: ['🔥', '😂', '👍', '💯', '🎉', '🤔'], // Allowed stickers in messages
 };
